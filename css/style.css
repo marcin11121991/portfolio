@@ -1,6 +1,36 @@
 body {
-  margin: 0;
+  width: 100%;
   font-family: 'Lato', sans-serif;
   color: #291f1a;
   font-size: 300;
+}
+
+#main-nav {
+	width: 100%;
+    
+}
+
+
+ul {
+     text-align: right;
+     margin:5px;
+     padding: 25px;
+     
+}
+
+
+ul > li {
+    display: inline-block;
+    
+   
+    
+}
+a {
+    text-decoration: none;
+    color: #1ac056 ;
+    padding: 25px;
+        
+}
+a:hover {
+    color:brown;
 }
