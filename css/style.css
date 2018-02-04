@@ -1,36 +1,139 @@
-body {
-  width: 100%;
-  font-family: 'Lato', sans-serif;
-  color: #291f1a;
-  font-size: 300;
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+span {
+    color: #1ac056;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
 }
 
 #main-nav {
-	width: 100%;
-    
-}
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 100%;
 
+}
 
 ul {
-     text-align: right;
-     margin:5px;
-     padding: 25px;
-     
+    float: right;
+    margin: 0;
+
 }
 
-
-ul > li {
+li {
     display: inline-block;
-    
-   
-    
+    padding: 20px 40px;
 }
+
 a {
     text-decoration: none;
-    color: #1ac056 ;
-    padding: 25px;
-        
+    color: #1ac056;
+    font-size: 300;
+
 }
+
 a:hover {
-    color:brown;
+    color: brown;
+}
+
+#main-header {
+
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.main-header-content {
+    padding: 30vh;
+    text-align: center;
+}
+
+#about {
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+section#about > figure > img {
+    height: 350px;
+    border: 15px;
+    border-radius: 50%;
+}
+
+article {
+    width: 50%;
+    float: left;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    float: left;
+    width: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+section#skills > div#skills-icons > figure {
+    width: 25%;
+    float: left;
+
+}
+
+section#skills > div#skills-icons > figure > img {
+    text-align: center;
+    height: 15%;
+    width: 15%;
+
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+
+}
+
+#portfolio-item-1 {
+    background-image: url(../img/portfolio3.jpg);
+}
+.portfolio-item {
+	height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width:33%;
+    position: relative;
+}
+.portfolio-items {
+	text-align: center;
+    font-size:0;
 }
